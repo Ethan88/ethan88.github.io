@@ -59,3 +59,22 @@
     
   </body>
 </html>
+
+<?php 
+$url = "https://www.cryptonator.com/api/ticker/ltc-usd";
+$data = json_decode(file_get_contents($url), true);
+$ticker = $data['ticker'];
+$latest_price = $ticker['price'];
+echo "$latest_price";
+?>
+
+<html>
+<head>
+<title>Litecoin Price Converter</title>
+<meta content='10' http-equiv='refresh'/> <!-- Reloads Page every 10 seconds -->
+</head>
+
+<body>
+</body>
+
+</html>
