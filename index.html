@@ -39,14 +39,265 @@ crypt_calc_transperency = false;</script><script type="text/javascript" src="htt
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>--</h3>
 
 <p>
-  <!-- Scripts Section -->
-		<script src="/ui/js/jquery-2.1.0.min.js?v20151219"></script>
-		<script src="/ui/js/bootstrap.min.js?v20151219"></script>		
-			<script src="/ui/js/raphael-2.1.0.min.js"></script><script src="/ui/js/morris-0.4.3.min.js"></script><script src="/ui/js/bootstrap-slider.js"></script>			
-		<script src="/ui/js/main.js?v20151219"></script>
-		<script src="/ui/js/analytics.js?v20151219"></script>
-		<!-- End Scripts Section -->
+
+		<!-- Navigation Section -->
+		<nav class="navbar" role="navigation">
 		
+			<!--
+			<div class="language-bar">			
+				<div class="container">
+					<div class="col-xs-4 col-sm-1 col-sm-offset-3">
+						<a href="https://www.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">English</a>
+					</div>
+					<div class="col-xs-4 col-sm-1">
+						<a href="https://es.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">Español</a>
+					</div>				
+					<div class="col-xs-4 col-sm-1">
+						<a href="https://de.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">Deutsch</a>
+					</div>
+					<div class="col-xs-4 col-sm-1">
+						<a href="https://fr.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">Français</a>
+					</div>
+					<div class="col-xs-4 col-sm-1">
+						<a href="https://ru.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">Русский</a>
+					</div>
+					<div class="col-xs-4 col-sm-1">
+						<a href="https://cn.cryptonator.com/rates/NAUT-BTC" style="color:#fcfcfc;">&#20013;&#25991;</a>
+					</div>
+				</div>
+			</div> -->
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span> 
+                </button>
+				<a class="navbar-brand" href="/">Cryptonator</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">HOME</a>
+                    </li>
+                    <li class="active" class="services dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES <span class="caret"></span></a>
+					  <ul class="services dropdown-menu text-left" role="menu">
+						<li class="services"><a href="/about/">Online wallet</a></li>
+						<li class="divider"></li>
+						<li class="services"><a href="/merchant/">Merchant tools <span class="label label-success">NEW</span></a></li>
+						<li class="divider"></li>
+						<li class="services"><a href="/converter/">Converter</a></li>
+						<li class="services"><a href="/rates/">Exchange Rates</a></li>
+						<li class="services"><a href="/winners-losers/">Winners & Losers</a></li>
+						<li class="services"><a href="/exchange/">Cryptocurrency Exchanges</a></li>
+						<li class="divider"></li>
+						<li class="services"><a href="/widget/">Widgets for website</a></li>
+						<li class="services"><a href="/api/">Developer API</a></li>
+					  </ul>
+					</li>
+                    <li class="home">
+                        <a href="/">
+                            <img src="/ui/img/logo-no-text.png" alt="Home" width="128" height="128">                            
+                        </a>
+                    </li>
+                    	                    <li>
+	                        <a href="/auth/signup/">SIGN UP</a>
+	                    </li>    
+	                    <li>
+	                        <a href="/auth/signin/">SIGN IN</a>
+	                    </li>
+                                    </ul>
+            </div>
+
+		</nav>
+		<!-- End Navigation Section -->
+		    
+		<!-- Rates Section -->
+        <section id="contactus">             
+            <div class="container"> 
+			
+                <div class="row text-center"> 
+                    <div class="col-sm-12">
+                        <div class="visible-xs">
+                            <img src="/ui/img/logo.png" class="logo" alt="Home" width="192" height="192">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2">
+						<h1>
+							Exchange rate <a href="http://www.cryptonator.com/rates/#NAUT" style="color:white;">Nautiluscoin (NAUT)</a> / <a href="http://www.cryptonator.com/rates/#BTC" style="color:white;">Bitcoin (BTC)</a>
+                        </h1>
+						<p><small style="color:white;">(Updated 28 July 2016 08:15:33 UTC+02:00)</small></p>
+                    </div>
+				</div>
+			</div>
+		</section>
+		<style>
+			h2 {font-size:50px;}
+		</style>		
+			<section style="padding:20px 0px 20px 0px;">
+				<div class="container">		
+					<div class="row text-center">					
+						<div class="col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+							<div class="liverate" data-primary="naut" data-secondary="btc" data-amount="1">
+								<div>
+									<div class="section-color-1 liverate-body">
+										waiting...									</div>
+																			<!-- <a href="#" data-toggle="modal" data-target="#crypto-notify" class="btn btn-2 subscribeNotify">Activate price notification</a> --><a href="/auth/signup/" class="btn btn-1">Open multicurrency account</a>
+	                                    <div>
+											<div class="modal fade" id="crypto-notify" tabindex="-1" role="dialog" aria-labelledby="crypto-notify-label" aria-hidden="true">
+	                                            <div class="modal-dialog">
+	                                                <div class="modal-content">
+	                                                    <div class="modal-header">
+	                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                                                        <h4 class="modal-title" id="crypto-notify-label">
+	                                                            Get NAUT-BTC rate notification	                                                        </h4>
+	                                                    </div>
+	                                                    <div class="modal-body">
+															<p>If you wish to receive instant email notification when the price reaches or breaches a specific price level, set min and max values and enter your email.</p>
+	                                                        <div class="row">
+																<div class="col-sm-6">
+																	<p>min</p>
+	                                                                																	<input type="text" class="form-control" id="crypto-notify-price-min" value="0.0005" />
+																</div>
+																<div class="col-sm-6">
+																	<p>max</p>
+	                                                                																	<input type="text" class="form-control" id="crypto-notify-price-max" value="0.0008" />
+																</div>
+															</div>
+															<br>
+	                                                        <p id="crypto-notify-slider"></p>
+	                                                        <script>
+	                                                            $("#crypto-notify-slider").slider({
+	                                                                min: 0,
+	                                                                max: 0.0013441,
+	                                                                step: 6.7205E-6,
+	                                                                value: [0.0005040375, 0.0008400625]
+	                                                            }).on('slide', function(ev){
+	                                                                var needPriceMin = parseFloat(ev.value[0]);
+	                                                                if (needPriceMin >= 1)
+	                                                                    needPriceMin = needPriceMin.toFixed(2).replace(/[\.0]+$/, '');
+	                                                                else
+	                                                                    needPriceMin = needPriceMin.toFixed(8).replace(/[\.0]+$/, '');
+	
+	                                                                if (needPriceMin == '') needPriceMin = '0';
+	
+	                                                                var needPriceMax = parseFloat(ev.value[1]);
+	                                                                if (needPriceMax >= 1)
+	                                                                    needPriceMax = needPriceMax.toFixed(2).replace(/[\.0]+$/, '');
+	                                                                else
+	                                                                    needPriceMax = needPriceMax.toFixed(8).replace(/[\.0]+$/, '');
+	
+	                                                                if (needPriceMax == '') needPriceMax = '0';
+	
+	                                                                $("#crypto-notify-price-min").val(needPriceMin);
+	                                                                $("#crypto-notify-price-max").val(needPriceMax);
+	                                                            });
+	
+	                                                            $("#crypto-notify-price-min, #crypto-notify-price-max").change(function() {
+	                                                                var needPriceMin = parseFloat($("#crypto-notify-price-min").val());
+	                                                                var needPriceMax = parseFloat($("#crypto-notify-price-max").val());
+	
+	                                                                if (needPriceMin > needPriceMax) {
+	                                                                    $("#crypto-notify-price-min").val(needPriceMax);
+	                                                                    $("#crypto-notify-price-max").val(needPriceMin);
+	
+	                                                                    $("#crypto-notify-slider").slider('setValue', [needPriceMax, needPriceMin]);
+	                                                                }
+	                                                                else
+	                                                                    $("#crypto-notify-slider").slider('setValue', [needPriceMin, needPriceMax]);
+	                                                            });
+	                                                        </script>
+															<hr>
+	                                                        <h4>Your email</h4>
+	                                                        <p><input type="text" id="crypto-notify-email" class="form-control" /></p>
+	                                                        <p><button type="button" class="btn-2 btn-lg" id="crypto-notify-submit">Set notification</button></p>
+	                                                        <div class="notify-error"></div>
+	                                                        <script>
+	                                                            $("#crypto-notify-submit").click(function () {
+	                                                                var needPriceMin = parseFloat($("#crypto-notify-price-min").val());
+	                                                                var needPriceMax = parseFloat($("#crypto-notify-price-max").val());
+	                                                                var email = $("#crypto-notify-email").val();
+	
+	                                                                var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	
+	                                                                if (regex.test(email)) {
+	                                                                    if (needPriceMin > 0 && needPriceMax > 0 && needPriceMax >= needPriceMin) {
+	                                                                        $.post("/cryptonotify/add",
+	                                                                            {
+	                                                                                base: "NAUT",
+	                                                                                target: "BTC",
+	                                                                                price_min: needPriceMin,
+	                                                                                price_max: needPriceMax,
+	                                                                                email: email
+	                                                                            },
+	                                                                            function(data) {
+	                                                                                if (data == "OK") {
+	                                                                                    $(".notify-error").text('DONE! Please check your email to activate notification');
+	                                                                                }
+	                                                                                else
+	                                                                                    $(".notify-error").text('Error: ' + data);
+	                                                                            }
+	                                                                        );
+	                                                                    }
+	                                                                    else
+	                                                                        $(".notify-error").text("Incorrect price");
+	                                                                }
+	                                                                else
+	                                                                    $(".notify-error").text("Incorrect email");
+	                                                            });
+	                                                        </script>
+	                                                    </div>
+	                                                    <div class="modal-footer">
+	                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                                                    </div>
+	                                                </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+                                    								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>					
+		
+				<!-- <div class="row text-center">
+					<div class="col-sm-4 col-sm-offset-4">
+						<table>
+							<tr>
+								<td>
+									135<br>
+									Nautiluscoin<br>
+									NAUT<br>
+									crypto<br>
+									<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: description</p>
+<p>Filename: rates/pair.php</p>
+<p>Line Number: 197</p>
+
+</div><br>
+																	</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									1<br>
+									Bitcoin<br>
+									BTC<br>
+									crypto<br>
+									<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: description</p>
+<p>Filename: rates/pair.php</p>
+<p>Line Number: 208</p>
 </p>
 
 <h3>
